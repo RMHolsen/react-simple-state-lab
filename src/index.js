@@ -5,3 +5,5 @@ import { pattern1 } from './data.js'
 import Matrix from './Matrix.js'
 
 ReactDOM.render(<Matrix values={pattern1} />, document.getElementById('root'));
+// Matrix gets a values prop of pattern1
+// which is imported above from data.js
